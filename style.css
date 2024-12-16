@@ -1,0 +1,64 @@
+html, body {
+    overflow-x: hidden; 
+    height: 100%; 
+    margin: 0; 
+    background-color: #dbbbbb;
+}
+
+body {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: flex-start; 
+    padding: 20px;
+    background-color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    height: auto; 
+    background: url('train.png') no-repeat center center fixed;
+    background-size: 250px 150px; 
+    background-attachment: fixed; 
+    font-size: 20px;
+ 
+}
+
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ascii-art {
+ 
+    display: flex;
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight: 300;
+    font-size: 16px; 
+    text-align:left; 
+    white-space: pre; 
+    overflow-x: auto; 
+    padding: 20px;           
+     min-height: 100vh;
+}
+
+
+
+
+
+.text-block {
+    width: 100%;
+    height: auto;
+    position: relative; 
+}
+.text {
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto; 
+    border-radius: 15px;
+    width: 400px; 
+    max-width: 400px;
+    box-sizing: border-box;
+    position: relative; }
+
+
+.text:nth-child(1) {
+    margin-top: 100px;
+}
+
