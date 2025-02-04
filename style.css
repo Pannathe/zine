@@ -1,52 +1,65 @@
-html, body {
+/* Updated style.css */
+html, body { 
     overflow-x: hidden; 
     height: 100%; 
     margin: 0; 
-    background-color: #dbbbbb;
+    background-color: #ffffff;
+    cursor: url('Asset 3.png'), auto;
+
 }
 
 body {
+    margin: 0;
+    padding: 0;
     display: flex; 
     flex-direction: column; 
     align-items: center; 
     justify-content: flex-start; 
-    padding: 20px;
-    background-color: #ffffff;
-    font-family: 'Arial', sans-serif;
-    height: auto; 
-    background: url('train.png') no-repeat center center fixed;
-    background-size: 250px 150px; 
-    background-attachment: fixed; 
-    font-size: 20px;
- 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    height: auto;
+    background-image: url('zinebackground.jpg'); /* Replace with your image URL */
+    background-position: center 11000px; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
 }
 
 .title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace
 }
 
 .ascii-art {
- 
     display: flex;
     font-family: 'Courier New', Courier, monospace; 
     font-weight: 300;
     font-size: 16px; 
-    text-align:left; 
+    text-align: left; 
     white-space: pre; 
     overflow-x: auto; 
     padding: 20px;           
-     min-height: 100vh;
+    min-height: 100vh;
 }
 
+.content {
+    z-index: 1;
+    position: relative; /* Keeps content above the background */
+    color: white; /* Ensures text is visible on dark backgrounds */
+    padding: 20px;
+}
 
-
-
+.svg-container {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+}
 
 .text-block {
     width: 100%;
     height: auto;
     position: relative; 
 }
+
 .text {
     text-align: center;
     padding: 20px;
@@ -55,10 +68,10 @@ body {
     width: 400px; 
     max-width: 400px;
     box-sizing: border-box;
-    position: relative; }
-
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+}
 
 .text:nth-child(1) {
     margin-top: 100px;
 }
-
