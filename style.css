@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Updated style.css */
 html, body { 
     overflow-x: hidden; 
@@ -11,10 +12,21 @@ html, body {
 body {
     margin: 0;
     padding: 0;
+=======
+html, body {
+    overflow-x: hidden; 
+    height: 100%; 
+    margin: 0; 
+    background-color: #dbbbbb;
+}
+
+body {
+>>>>>>> 2a608be4e93e4999709f06927a4af7cff20c592f
     display: flex; 
     flex-direction: column; 
     align-items: center; 
     justify-content: flex-start; 
+<<<<<<< HEAD
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
     height: auto;
@@ -28,10 +40,30 @@ body {
 }
 
 .ascii-art {
+=======
+    padding: 20px;
+    background-color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    height: auto; 
+    background: url('train.png') no-repeat center center fixed;
+    background-size: 250px 150px; 
+    background-attachment: fixed; 
+    font-size: 20px;
+ 
+}
+
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.ascii-art {
+ 
+>>>>>>> 2a608be4e93e4999709f06927a4af7cff20c592f
     display: flex;
     font-family: 'Courier New', Courier, monospace; 
     font-weight: 300;
     font-size: 16px; 
+<<<<<<< HEAD
     text-align: left; 
     white-space: pre; 
     overflow-x: auto; 
@@ -53,13 +85,28 @@ body {
     max-width: 800px;
     margin: 20px auto;
 }
+=======
+    text-align:left; 
+    white-space: pre; 
+    overflow-x: auto; 
+    padding: 20px;           
+     min-height: 100vh;
+}
+
+
+
+
+>>>>>>> 2a608be4e93e4999709f06927a4af7cff20c592f
 
 .text-block {
     width: 100%;
     height: auto;
     position: relative; 
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2a608be4e93e4999709f06927a4af7cff20c592f
 .text {
     text-align: center;
     padding: 20px;
@@ -68,10 +115,19 @@ body {
     width: 400px; 
     max-width: 400px;
     box-sizing: border-box;
+<<<<<<< HEAD
     position: relative;
     font-family: 'Courier New', Courier, monospace;
 }
+=======
+    position: relative; }
+
+>>>>>>> 2a608be4e93e4999709f06927a4af7cff20c592f
 
 .text:nth-child(1) {
     margin-top: 100px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2a608be4e93e4999709f06927a4af7cff20c592f
